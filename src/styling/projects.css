@@ -1,0 +1,39 @@
+.card_style{
+    color: #fff;
+    height: 750px;
+
+}
+
+h2{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.card_main{
+    width: 512px;
+    margin: auto;
+
+}
+
+.cards_parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.text{
+    font-family: 'Arvo', serif;
+    font-size: 28px;
+}
+
+section{
+    margin-top: 16px;
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E6DADA, #274046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E6DADA, #274046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.mdl-card{
+    margin: 24px;
+}

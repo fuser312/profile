@@ -1,0 +1,36 @@
+.contact_main{
+    margin: auto;
+    background: grey;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.contact_body{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+
+.intro{
+    margin: auto;
+    font-size: 32px;
+    font-family: 'Arvo', serif;
+}
+
+h2{
+   font-family: 'Anton', sans-serif;
+}
+
+.contact_body hr{
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+}
