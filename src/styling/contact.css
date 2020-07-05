@@ -1,5 +1,5 @@
 .contact_main{
-    margin: auto;
+    margin: 16px auto;
     background: grey;
     width: 100%;
     height: 100%;
@@ -34,3 +34,50 @@ h2{
     width: 50%;
     margin: auto;
 }
+
+.contacts{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.contacts i{
+    display: flex;
+    flex-direction: row;
+    color : rgb(255,64,129);
+    font-size: 4em;
+    padding: 16px;
+}
+
+.contacts {
+    font-family: 'Arvo', serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    flex-direction: row;
+    display: inline;
+}
+
+section{
+    margin-top: 80px;
+}
+
+.icons i{
+    float: left
+}
+.icons p{
+    float: right;
+    margin: auto;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 24px;
+    padding-top: 24px;
+
+}
+

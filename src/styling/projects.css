@@ -1,6 +1,7 @@
 .card_style{
     color: #fff;
-    height: 750px;
+    height: 590px;
+    background-repeat: no-repeat;
 
 }
 
@@ -37,3 +38,9 @@ section{
 .mdl-card{
     margin: 24px;
 }
+
+.tabs{
+    margin: 64px 0px;
+}
+
+

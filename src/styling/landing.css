@@ -1,6 +1,8 @@
 .main{
     width: 100%;
     margin: auto;
+    background: -webkit-linear-gradient(to right, #E6DADA, #274046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E6DADA, #274046);
 }
 
 .landing_grid{
@@ -10,6 +12,18 @@
     text-align: center;
     display: flex;
     flex-direction: row;
+}
+
+.material-icons:before{
+    margin-top: -25px;
+    content: "=";
+    font-size:32px;
+    position: fixed;
+
+}
+
+.material-icons{
+    font-size: 1px !important;
 }
 
 .main_image{
@@ -24,6 +38,7 @@
     width: 80%;
     margin: auto;
     border-radius: 15px;
+    font-family: 'Arvo', serif;
 
 }
 
@@ -33,6 +48,7 @@
     color: white;
     width : 60%;
     margin : auto;
+    font-family: 'Anton', serif;
 }
 
 .banner_text hr{
@@ -45,6 +61,7 @@
     color: white;
     font-size: 24px;
     padding: 1em;
+    font-family: 'Arvo', serif;
 }
 
 .social_links{
@@ -59,3 +76,98 @@
     font-size: 4em;
     padding: 16px;
 }
+
+hr{
+    border-top: 5px dotted white !important;
+    width: 50% !important;
+    margin: auto !important;
+}
+
+
+
+.skill_images{
+    height: 100px;
+    width: 180px;
+    padding: 24px;
+    mix-blend-mode: multiply;
+    background: rgba(0,0,0,0)
+
+}
+
+.skills{
+    background-color: #39CCCC;
+    opacity: .8;
+    width: 80%;
+    margin: 48px auto;
+    border-radius: 15px;
+}
+
+
+
+ul {
+    list-style: none;
+    font-family: 'Arvo', serif;
+}
+
+li{
+    padding-bottom: 16px;
+}
+
+ul li{
+    text-indent: -1.5em;
+}
+
+ul li:before {
+    content: '✓';
+    padding-right: 8px;
+    color: blue;
+}
+
+.skills h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    width : 60%;
+    margin :  auto;
+    font-family: 'Anton', serif;
+    padding: 4px 0;
+}
+
+.works{
+    background-color: #0074D9;
+    opacity: .8;
+    width: 80%;
+    margin: 48px auto;
+    border-radius: 15px;
+}
+
+.works h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    width : 60%;
+    margin :  auto;
+    font-family: 'Anton', serif;
+    padding: 4px 0;
+}
+
+h3{
+    text-align: center;
+}
+
+
+
+.slick-slide img{
+    height: 90%;
+    width: 50%;
+    margin : auto;
+}
+
+.description{
+    margin: auto;
+    text-align: center;
+    padding-top: 24px;
+}
+
+
+

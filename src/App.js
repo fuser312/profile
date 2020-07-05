@@ -4,6 +4,8 @@ import {Layout, Header, Drawer, Navigation, Content} from "react-mdl";
 import Main from "./components/main";
 import {Link} from "react-router-dom";
 
+
+
 function App() {
   return (
 
@@ -13,16 +15,16 @@ function App() {
         <Layout>
             <Header className="header_color" title="My Portfolio" scroll>
                 <Navigation>
-                    <Link to="/resume">Resume</Link>
-                    <Link to="/aboutme">About Me</Link>
+                    <Link to="/">Home</Link>
+                    {/*<Link to="/resume">Resume</Link>*/}
                     <Link to="/projects">Projects</Link>
                     <Link to="/contactme">Contact Me</Link>
                 </Navigation>
             </Header>
-            <Drawer title="Title">
+            <Drawer title="My Portfolio">
                 <Navigation>
-                    <Link to="/resume">Resume</Link>
-                    <Link to="/aboutme">About Me</Link>
+                    <Link to="/">Home</Link>
+                    {/*<Link to="/resume">Resume</Link>*/}
                     <Link to="/projects">Projects</Link>
                     <Link to="/contactme">Contact Me</Link>
                 </Navigation>
